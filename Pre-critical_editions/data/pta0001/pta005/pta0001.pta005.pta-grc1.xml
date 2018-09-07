@@ -12,7 +12,7 @@
 				</respStmt>
 				<respStmt>
 					<persName xml:id="AvS">Annette von Stockhausen</persName>
-					<resp>Conversion of the transcription to CTS-compliant EpiDoc TEI</resp>
+					<resp>Conversion of the transcription to CTS-compliant PTA TEI</resp>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -43,7 +43,7 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
-			<p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+			<p>The following text is encoded in accordance with PTA standards and with the CTS/CITE Architecture.</p>
 			<refsDecl n="CTS">
 				<cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
 			</refsDecl>
@@ -54,7 +54,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2018-07-26" who="#AvS">Converted to EpiDoc/CapiTainS</change>
+			<change when="2018-07-26" who="#AvS">Converted to PTA/CapiTainS</change>
 			<change when="2018-02-12" who="#KP">Transcription from PG 52</change>
 		</revisionDesc>
 	</teiHeader>
