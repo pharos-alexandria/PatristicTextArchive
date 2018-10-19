@@ -27,7 +27,7 @@
 	    	  <idno type="CPG">4220</idno>
 			  <idno type="BHG"/>
 			  <idno type="Aldama"/>
-			  <idno type="Pinakes-Oeuvre"/>
+			  <idno type="Pinakes-Oeuvre">missing</idno>
 			</publicationStmt>
 			<sourceDesc>
     			<biblStruct type="journalArticle" xml:id="Dyovouniotis">
