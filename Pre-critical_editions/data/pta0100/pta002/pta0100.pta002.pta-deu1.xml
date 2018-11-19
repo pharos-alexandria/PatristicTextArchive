@@ -48,7 +48,7 @@
 			<refsDecl n="CTS">
 			  <cRefPattern n="section" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
 			  </cRefPattern>
-			  <cRefPattern n="dok" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+			  <cRefPattern n="subdok" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
 			  </cRefPattern>
 			</refsDecl>
 		</encodingDesc>
@@ -64,7 +64,7 @@
 	<text>
 		<body>
 		  <div type="translation" xml:lang="deu" n="urn:cts:pta:pta0100.pta001.pta-deu1">
-		    <div type="textpart" subtype="dok" n="1">
+		    <div type="textpart" subtype="subdok" n="1">
 				<head>
 					<title>Dok. 2.1: Fragment eines Briefes des Alexander von Alexandrien an seinen Klerus</title>
 				</head>
@@ -81,7 +81,7 @@
 				  <p>Denn es ist recht, daß ihr das von mir schriftlich Angeordnete kennt und es jeder so im Herzen hält, als ob es von ihm selbst geschrieben wäre.</p>
 				</div>
 		    </div>
-		    <div type="textpart" subtype="dok" n="2">
+		    <div type="textpart" subtype="subdok" n="2">
 				<head>
 					<title>Dok 2.2: Rundschreiben an alle Bischöfe</title>
 				</head>

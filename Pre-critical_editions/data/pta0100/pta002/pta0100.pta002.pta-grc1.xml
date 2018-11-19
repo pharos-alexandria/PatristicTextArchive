@@ -36,7 +36,7 @@
 			<refsDecl n="CTS">
 			  <cRefPattern n="section" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
 			  </cRefPattern>
-			  <cRefPattern n="dok" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+			  <cRefPattern n="subdok" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
 			  </cRefPattern>
 			</refsDecl>
 		</encodingDesc>
@@ -52,7 +52,7 @@
 	<text>
 		<body>
 		  <div type="edition" xml:lang="grc" n="urn:cts:pta:pta0100.pta002.pta-grc1">
-		    <div type="textpart" subtype="dok" n="1">
+		    <div type="textpart" subtype="subdok" n="1">
 				<head>
 					<title>Urkunde 4a. Alexander von Alexandrien an seinen Klerus</title>
 				</head>
@@ -69,7 +69,7 @@
 				  <p>πρέπει γὰρ τὰ παρ’ ἐμοῦ γραφόμενα γινώσκειν ὑμᾶς καὶ ἕκαστον ὥς παρ᾽ αὐτοῦ γραφόμενα ἐν τῇ καρδίᾳ κατέχειν.</p>
 				</div>
 		    </div>
-		    <div type="textpart" subtype="dok" n="2">
+		    <div type="textpart" subtype="subdok" n="2">
 				<head>
 					<title>Urkunde 4b. Brief Alexanders von Alexandrien an alle Bischöfe</title>
 				</head>
